@@ -3,7 +3,7 @@ This repository is for full documentation of my journey through VSD ( open to in
 ## Day 0 - Tools Installation  
 ### Yosys  
 Yosys (Yosys Open SYnthesis Suite) is a powerful, free, and open-source framework for hardware synthesis i.e., converting your HDL version of hardware into Gate-level structure.  
-Installation steps/commands:  
+**Installation steps/commands:**   
 ```
 $ sudo apt-get update
 $ git clone https://github.com/YosysHQ/yosys.git
@@ -18,16 +18,18 @@ $ git submodule update --init
 $ make 
 $ sudo make install
 ```
+**Kick-Start:**  
 <picture><img width="891" height="688" alt="image" src="https://github.com/user-attachments/assets/562bd37e-4078-453c-9ee0-85493d32a265" />
-</picture>
-Note: git submodule update --init had been added based on the suggestion of terminal as the specific directory exists but is not correctly initialised as a Git submodule in the repository clone. Hence initialised as submodule with this command.  
+</picture>  
+**Note:** ```git submodule update --init``` had been added based on the suggestion of terminal as the specific directory exists but is not correctly initialised as a Git submodule in the repository clone. Hence initialised as submodule with this command.  
 ### Iverilog
-Iverilog ( Icarus Verilog) is a popular, free, and open-source Verilog HDL compiler and simulator. It is used to write Verilog code and either compile it for simulation or generate a netlist for synthesis.
-Installation Steps/ Commands:
+Iverilog ( Icarus Verilog) is a popular, free, and open-source Verilog HDL compiler and simulator. It is used to write Verilog code and either compile it for simulation or generate a netlist for synthesis.  
+**Installation Steps/ Commands:**
 ```
 $ sudo apt-get update
 $ sudo apt-get install iverilog
 ```
+**Kick-Start:**  
 <picture><img width="891" height="282" alt="image" src="https://github.com/user-attachments/assets/0c55531a-3db4-4562-af46-e816a4bbf2ac" />
 </picture>
 ### GTKWave
@@ -37,6 +39,7 @@ Installation Steps/ Commands:
 $ sudo apt-get update
 $ sudo apt install gtkwave
 ```
+**Kick-Start:**  
 <picture><img width="891" height="154" alt="image" src="https://github.com/user-attachments/assets/f78e3acb-168c-4c39-9460-891ccadeac5f" />
 
 </picture>
