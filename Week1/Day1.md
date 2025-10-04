@@ -95,7 +95,7 @@ run yosys
 run the library  
 `read_liberty -lib ~/VLSI/vsdflow/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib`  
 run the verilog code  
-`read_liberty -lib ~/VLSI/vsdflow/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib`  
+`read_verilog ~/VLSI/vsdflow/sky130RTLDesignAndSynthesisWorkshop/verilog-files/good_mux.v`  
 synthesize the design  
 ```
 synth -top good_mux
