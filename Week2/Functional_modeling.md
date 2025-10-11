@@ -58,6 +58,19 @@ Initial inputs trigger the **PLL** to generate the system clock, which drives th
    ```  
 4. See the waveforms  `gtkwave output/pre_synth_sim/pre_synth_sim.vcd`
 5. Enable the required signals, output should be as follows:  
+<img width="1299" height="741" alt="image" src="https://github.com/user-attachments/assets/0f564605-53f3-4935-9b33-c4a3d354e14a" />  
+This is the waveform of the pll module. Clock signal was successfullly generated with frequency of 40MHz.
+  
+<img width="1299" height="741" alt="image" src="https://github.com/user-attachments/assets/e770f31f-f690-4e2f-bc21-4c486361cfd8" />
+This is the waveform of the core rythmv processor. It recieved the clock signal correctly. Based on reset, it was able to process data and produce 10 bit binary data as OUT    
+<img width="1299" height="741" alt="image" src="https://github.com/user-attachments/assets/cd4e6a91-6f2c-40bc-a11f-87a959e23fb5" />
+This is the waveform of dac module. This particular waveform show the 10-bit data from the rythm processor is received accurately by comparing above two waveforms    
+<img width="1299" height="741" alt="image" src="https://github.com/user-attachments/assets/ec242724-9910-4849-86c9-eaf9eb4cec2b" />
+This waveform shows that the data is successfully converted into analog values by the dac.    
+<img width="1299" height="741" alt="image" src="https://github.com/user-attachments/assets/23eff36c-73b7-4ba5-96de-98a51b95a19c" />
+This is the final waveform which shows our BabySoC behaving correctly.    
+
+
 
 ---
 
