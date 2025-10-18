@@ -54,7 +54,7 @@ which results in the following output:
 <img width="1303" height="741" alt="Screenshot from 2025-10-18 17-55-32" src="https://github.com/user-attachments/assets/6db5ede3-22e0-4063-a117-c18a595297ef" />
 Now plot the graphs using  `plot out vs in`, which give output as follows:
 <img width="1303" height="741" alt="Screenshot from 2025-10-18 17-52-02" src="https://github.com/user-attachments/assets/40e17f7e-a362-4b79-a83e-47c030067849" />
-Now to find the switching threshold, where the Vin = Vout. Zoom into the plot as follows
+Now to find the switching threshold, where the Vin = Vout (Short Circuit), also where both the MOSFETs in ON & saturation condition which consumes lot of current and power. Zoom into the plot as follows
 <img width="1303" height="741" alt="Screenshot from 2025-10-18 17-54-15" src="https://github.com/user-attachments/assets/00c6c06f-bb69-4034-acb5-002c1f5c5bb6" />
 click on the equal point, then you can see the values as 
 <img width="1301" height="187" alt="Screenshot from 2025-10-18 17-57-57" src="https://github.com/user-attachments/assets/8df44e35-e82b-4b1b-8b52-d4534c3bc375" />
