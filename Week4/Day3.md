@@ -48,7 +48,7 @@ display
 
 .end
 ```
-Generally, PMOS Channel width is taken greater than the NMOS (here around 2.33 times).  
+Generally, PMOS Channel width is taken greater than the NMOS (here around 2.33 times)., this will set the Switching threshold at half of the Vdd.  
 Now run the spice using the command `ngspice day3_inv_vtc_Wp084_Wn036.spice `  
 which results in the following output:
 <img width="1303" height="741" alt="Screenshot from 2025-10-18 17-55-32" src="https://github.com/user-attachments/assets/6db5ede3-22e0-4063-a117-c18a595297ef" />
@@ -59,7 +59,7 @@ Now to find the switching threshold, where the Vin = Vout (Short Circuit), also 
 click on the equal point, then you can see the values as 
 <img width="1301" height="187" alt="Screenshot from 2025-10-18 17-57-57" src="https://github.com/user-attachments/assets/8df44e35-e82b-4b1b-8b52-d4534c3bc375" />
 Thus 0.877 is the Switching Threshold.  
-Note: If the Widths of both mosfets of equal size, the switching threshold will be half of the voltage range.  
+Note: If the Widths of both mosfets of equal size, the switching threshold will not be half of the voltage range.  
 
 # Transient Behavior: Rise / Fall Delays
 To observe the transient behaviour in a CMOS inverter, perform the puslse input as following  
